@@ -1,5 +1,5 @@
 require 'rspec'
-require_relative '../hex'
+require_relative './hex'
 
 describe Hex do
   let(:converter) { described_class.new(red, green, blue) }
